@@ -5,7 +5,7 @@ export default class Header extends React.Component {
     return (
       <header className="top">
         <h1>
-          Cach
+          Catch
           <span className="ofThe">
             <span className="of">Of</span>
             <span className="the">The</span>
@@ -13,7 +13,7 @@ export default class Header extends React.Component {
           Day
         </h1>
         <h3 className="tagline">
-          <span>Fresh Seafood Market</span>
+          <span>{this.props.tagline}</span>
         </h3>
       </header>
     );
