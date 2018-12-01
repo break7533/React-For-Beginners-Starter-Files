@@ -13,6 +13,7 @@ export default class Inventory extends React.Component {
             fish={this.props.fish[key]}
             updateFish={this.props.updateFish}
             index={key}
+            deleteFish={this.props.deleteFish}
           />
         ))}
         <AddFishForm addFish={this.props.addFish} />
