@@ -64,6 +64,7 @@ In March 2018 I re-recorded this course. Here are the things that I've updated.
 * Move promise based code to async/await
 * Show how to return multiple elements with React.Fragment
 
+
 ## htaccess
 
 Here is the .htaccess file we use in the apache deployment video
