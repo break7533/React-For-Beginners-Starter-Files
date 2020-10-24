@@ -17,7 +17,7 @@ export default class StorePicker extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.goToStore} className="store-selector">
+      <form onSubmit={this.goToStore.bind(this)} className="store-selector">
         <h2>Please Enter a Store</h2>
         <input
           type="text"
