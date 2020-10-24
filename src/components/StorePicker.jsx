@@ -11,7 +11,7 @@ export default class StorePicker extends React.Component {
 
   goToStore = event => {
     event.preventDefault();
-    const storeName = this.myInput.value.value;
+    const storeName = this.myInput.current.value;
     this.props.history.push(`/store/${storeName}`);
   };
 
